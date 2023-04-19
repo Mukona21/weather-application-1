@@ -1,0 +1,113 @@
+body {
+    font-family: "Noto Sans Georgian", sans-serif;
+    color: #fff;
+}
+
+.main {
+    background-image: url(../images/dark-sky.jpg);
+    background-size: cover;
+    max-width: 100%;
+}
+
+.weather-app {
+    max-width: 800px;
+    padding: 20px 25px;
+    margin: 0 auto;
+}
+
+.main-display,
+.weather-forecast {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.weather-forecast {
+    padding: 20px 20px 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+p {
+    margin: 0;
+}
+
+.current-weather-description {
+    text-align: center;
+    font-weight: 300;
+}
+
+.current-temperature {
+    font-size: 80px;
+    text-align: center;
+}
+
+.current-city-temperature-block,
+.discription-block {
+    padding: 20px 0;
+}
+
+.units {
+    position: relative;
+    top: -50px;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.feels-like-units {
+    position: relative;
+    top: -5px;
+    font-size: 13px;
+}
+
+.card {
+    height: 200px;
+    background: rgba(74, 144, 226, 0.1);
+}
+
+.card:hover {
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    background: rgba(74, 144, 226, 0.3);
+}
+
+h2 {
+    color: #ff6100;
+    font-size: 23px;
+}
+
+.forecast-temperatures {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.card-night-temperature {
+    opacity: 0.6;
+}
+
+.active {
+    cursor: default;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    font-weight: 300;
+    text-align: center;
+}
